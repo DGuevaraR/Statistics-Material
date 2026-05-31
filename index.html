@@ -117,7 +117,7 @@
     }
 
     .toggle-h1 {
-      background: #6f42c1;
+      background: #ff7f0e;
     }
 
     .toggle-type-i {
@@ -698,7 +698,7 @@
         y: h0Y,
         mode: "lines",
         name: "Distribution under H₀",
-        line: { width: 3 }
+        line: { color: "#1f77b4", width: 3 }
       };
 
       const h1Curve = {
@@ -706,7 +706,7 @@
         y: h1Y,
         mode: "lines",
         name: "Distribution under H₁",
-        line: { width: 3, dash: "dash" }
+        line: { color: "#ff7f0e", width: 3, dash: "dash" }
       };
 
       const traces = [h0Curve, h1Curve];
